@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Stack s = new Stack<Integer>();
+        Stack<Integer> s = new Stack<Integer>();
         s.push(7);
         s.push(10);
         System.out.println(s.pop());
