@@ -16,6 +16,7 @@ public class Duplicator {
         }
         return y;
     }
+    
 
     public static Stack<Integer> twoCopies(Stack<Integer> x) {
         Stack<Integer> z = new Stack<Integer>();
